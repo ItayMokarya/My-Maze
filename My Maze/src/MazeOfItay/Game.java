@@ -23,7 +23,7 @@ public class Game {
         this.createPlayers();
 
 
-        for(int round = 3; round <= 3; ++round) {
+        for(int round = 1; round <= 3; ++round) {
             System.out.println("Round " + round);
             //Preparing the maze for round
             this.m.InitGame(round);

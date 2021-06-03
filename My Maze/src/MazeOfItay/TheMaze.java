@@ -239,6 +239,7 @@ public class TheMaze {
                 this.maze[2][0].setLeft_Wall(true);
                 this.maze[2][1].setEmpty(true);
                 this.maze[3][0].setDown_Wall(true);
+                this.maze[3][1].setDown_Wall(true);
                 this.maze[3][3].setEmpty(true);
                 this.maze[3][1].setUp_Wall(true);
                 this.maze[1][1].setIntrnal(true);
@@ -248,6 +249,7 @@ public class TheMaze {
                 this.maze[1][2].setPrize(10);
                 this.locatinX = 1;
                 this.locatinY = 2;
+                break;
             case 3:
                 this.maze[0][0].setUp_Wall(true);
                 this.maze[0][1].setUp_Wall(true);
@@ -280,8 +282,8 @@ public class TheMaze {
                 this.maze[2][1].setIntrnal(true);
                 this.maze[2][2].setIntrnal(true);
                 this.maze[2][0].setPrize(10);
-                this.locatinX = 1;
-                this.locatinY = 2;
+                this.locatinX = 2;
+                this.locatinY = 0;
         }
     }
     // Print the maze with players
